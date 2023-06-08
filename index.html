@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page4</title>
+
+    <style>
+        html, body {
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+      </style>
+      
+<script>
+	var title = "兩人的個人資訊";
+	var i = 0;
+	var timer = setInterval(function() {
+		if (i < title.length) {
+			document.title = title.substr(0, i + 1);
+			i++;
+		}
+	}, 210);
+</script>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Font+Name&display=swap">
+</head>
+
+<body style="background: linear-gradient(to bottom, #b6cbf1, #80a5e5, #5381bc, #2f41a5);">
+    
+<div class="row">
+    <!-- 左邊按鈕 -->
+    <div class="col-2">
+    <div class="list-group" id="list-tab" role="tablist">
+      <!-- FB -->
+        <a class="list-group-item list-group-item-action active list-group-item-primary" id="list-FB-list" data-bs-toggle="list" href="#FB" role="tab" aria-controls="list-FB">
+          <div class="tab-pane fade show active" id="list-FB" role="tabpanel" aria-labelledby="list-FB-list">
+            <div class="container">
+              <i class="fa-brands fa-square-facebook fa-3x d-flex align-items-center justify-content-center" style="color: #12203a;" src=""  ></i>
+            </div>
+          </div>
+        </a>
+        <!-- IG -->
+        <a class="list-group-item list-group-item-action list-group-item-dark" id="list-IG-list" data-bs-toggle="list" href="#IG" role="tab" aria-controls="list-IG">
+          <div class="tab-pane fade show active" id="list-IG" role="tabpanel" aria-labelledby="list-IG-list">
+            <div class="container">
+              <i class="fa-brands fa-instagram fa-3x d-flex align-items-center justify-content-center" style="color: #12203a;"></i>
+            </div>
+          </div>
+        </a>
+        <!-- Twitter -->
+        <a class="list-group-item list-group-item-action list-group-item-light" id="list-Twitter-list" data-bs-toggle="list" href="#Twitter" role="tab" aria-controls="list-Twitter">
+          <div class="tab-pane fade show active" id="list-Twitter" role="tabpanel" aria-labelledby="list-Twitter-list">
+            <div class="container">
+              <i class="fa-brands fa-square-twitter fa-3x d-flex align-items-center justify-content-center" style="color: #12203a;"></i>
+            </div>
+          </div>
+        </a>
+        <!-- Youtube -->
+        <a class="list-group-item list-group-item-action list-group-item-primary" id="list-Youtube-list" data-bs-toggle="list" href="#Youtube" role="tab" aria-controls="list-Youtube">
+          <div class="tab-pane fade show active" id="list-Youtube" role="tabpanel" aria-labelledby="list-Youtube-list">
+            <div class="container">
+              <i class="fa-brands fa-youtube fa-3x d-flex align-items-center justify-content-center" style="color: #12203a;"></i>
+            </div>
+          </div>
+        </a>
+        <!-- Discord -->
+        <a class="list-group-item list-group-item-action list-group-item-light" id="list-Discord-list" data-bs-toggle="list" href="#Discord" role="tab" aria-controls="list-Discord">
+          <div class="tab-pane fade show active" id="list-discord" role="tabpanel" aria-labelledby="list-discord-list">
+            <div class="container">
+              <i class="fa-brands fa-discord fa-3x d-flex align-items-center justify-content-center" style="color: #12203a;"></i>
+            </div>
+          </div>
+        </a>
+        <!-- Email -->
+        <a class="list-group-item list-group-item-action list-group-item-primary" id="list-envelope-list" data-bs-toggle="list" href="#envelope" role="tab" aria-controls="list-envelope">
+          <div class="tab-pane fade show active" id="list-envelope" role="tabpanel" aria-labelledby="list-envelope-list">
+            <div class="container">
+              <i class="fa-solid fa-envelope fa-3x d-flex align-items-center justify-content-center" style="color: #12203a;"></i>
+            </div>
+          </div>
+        </a>
+        <!-- Donate -->
+        <a class="list-group-item list-group-item-action list-group-item-dark" id="list-Donate-list" data-bs-toggle="list" href="#Donate" role="tab" aria-controls="list-Github">
+          <div class="tab-pane fade show active" id="list-donate" role="tabpanel" aria-labelledby="list-donate-list">
+            <div class="container">
+              <i class="fa-solid fa-circle-dollar-to-slot fa-3x d-flex align-items-center justify-content-center" style="color: #12203a;"></i>   
+            </div>
+          </div>
+        </a>            
+    </div>
+    </div>
+    <!-- 右邊介紹/連結 -->
+    <div class="col-10">
+    <div class="tab-content" id="nav-tabContent">
+      <!-- FB -->
+      <div class="tab-pane fade show active" id="FB" role="tabpanel" aria-labelledby="list-Facebook-list">
+        <h3><a href="https://www.facebook.com/profile.php?id=100063841182078&mibextid=LQQJ4d">阿皮Lin</a></h3>
+        <h5>放一些繪畫作品和小遊戲錄影檔</h5>
+        <h3><a href="https://www.facebook.com/profile.php?id=100009889564055">余芹</a></h3>
+        <h5>紀錄日常</h5>
+      </div>
+      <!-- IG -->
+        <div class="tab-pane fade " id="IG" role="tabpanel" aria-labelledby="list-IG-list">
+          <h3><a href="https://www.instagram.com/akilin030/">阿皮Lin</a></h3>
+          <h5>紀錄繪畫作品和Sky光遇日常~</h5>
+          <h3><a href="https://www.instagram.com/404insulator/">404insulator</a></h3>
+          <h5>攝影作品和生活日常</h5>
+          <h3><a href="https://www.instagram.com/yuqin_07_08/">余芹</a></h3>
+          <h5>紀錄日常</h5>
+        </div>
+      <!-- Twitter -->
+        <div class="tab-pane fade" id="Twitter" role="tabpanel" aria-labelledby="list-Twitter-list">
+          <h3><a href="https://twitter.com/AkiLin030">阿皮Lin</a></h3>
+          <h5>繪畫作品</h5>
+          <h3><a href="https://twitter.com/AkiLin_3bk">馬鈴薯天婦羅</a></h3>
+          <h5>專門放「戌亥とこ」的相關作品</h5>
+        </div>
+      <!-- Youtube -->
+        <div class="tab-pane fade" id="Youtube" role="tabpanel" aria-labelledby="list-Youtube-list">
+          <h3><a href="https://youtube.com/@user-wo8bt8rl5c">秋な</a></h3>
+          <h5>(目前合作youtuber)</h5>
+          <h5>做各種小精華剪輯，以及一些歌曲翻譯</h5>
+        </div>
+      <!-- Discord -->
+        <div class="tab-pane fade" id="Discord" role="tabpanel" aria-labelledby="list-Discord-list">
+          <h3>個人: 阿皮Lin#6330</h3>
+          <h3>伺服器: <a href="http://discord.gg/bTpm9bn2ra">在床上發芽的馬鈴薯</a></h3>
+          <h5>進入一個只有阿床的世界</h5>
+          <h6>閒閒沒事可以進去許願，我會盡量實現願望</h6>
+        </div>
+      <!-- Email -->
+        <div class="tab-pane fade" id="envelope" role="tabpanel" aria-labelledby="list-Email-list">
+          <h2>聯絡窗口</h2>
+          <h3><a href="mailto:marshmello28056@gmail.com">秋な</a></h3>              
+          <h3><a href="mailto:hahayayyee@gmail.com">阿皮Lin</a></h3>
+        </div>    
+      <!-- Donate -->
+        <div class="tab-pane fade" id="Donate" role="tabpanel" aria-labelledby="list-Donate-list">
+          <h3><a href="https://www.buymeacoffee.com/030marshmello">請我喝杯咖啡嗎?</a></h3>
+          <h5>秋な 及 阿皮Lin 的共同贊助平台</h5>
+        </div>            
+    </div>
+    </div>
+  </div>  
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+      <script src="https://kit.fontawesome.com/adbbe8aadc.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
